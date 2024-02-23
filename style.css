@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 99999;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.bounding .boundingelem {
+    transform: translateY(100%);
+}
+
+#main{
+    width: 100%;
+    background-color: black;
+}
+
+#hero{
+    position: relative;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    color: #fff;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#heading{
+    margin-top: 90px;
+
+}
+
+#heading h1{
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 10vw;
+    font-weight: 500;
+    margin-left: 30px;
+    opacity: .6;
+    font-family: "General Sans Medium";
+}
+
+#heading #secondh1{
+    margin-left: 180px;
+
+}
+
+.blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+}
+
+.blocktext h5{
+    text-align: right;
+    font-size: 17px;
+    
+}
+
+#shortheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+#shortheadings h5{
+    text-align: right;
+    margin-top: .5vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+#herofooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    padding: 0 2vw;
+}
+
+#herofooter a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+
+}
+
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #888;
+}
+
+
+#second{
+    color: #fff;
+    padding-right: 10vw;
+    padding-left: 2vw;
+    padding-top: 150px;
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+}
+
+.elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid #888;
+    padding: 3vw 0;
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+    opacity: .7;
+}
+
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+
+.elem img{
+    position: absolute;
+    height: 100%;
+    z-index: 999;
+    opacity: 0;
+    /* display: none; */
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    background-color: black;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    color: #fff;
+}
+
+#textabout{
+    width: 25rem;
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    opacity: .6;
+}
+
+#textabout p{
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+#textabout a{
+    padding: 12px 22px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 100px;
+}
+
+#about img{
+    width: 200px;
+}
+
+#subscribe{
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 6vw;
+    background-color: black;
+}
+
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: black;
+    color: #fff;
+}
+
+#footerleft{
+    display: flex;
+    gap: 50px;
+}
+
+#footerright{
+    display: flex;
+    gap: 50px;
+}
+
+#footer a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
